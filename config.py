@@ -14,8 +14,8 @@ EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 # API configurations
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-OPENROUTER_MODEL = "anthropic/claude-3.5-sonnet"
-OPENROUTER_BASE_URL = "https://openrouter.io/api/v1"
+OPENROUTER_MODEL = "anthropic/claude-sonnet-4"
+OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # Contradiction thresholds
 CONTRADICTION_THRESHOLD = 0.7

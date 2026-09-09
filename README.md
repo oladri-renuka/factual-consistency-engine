@@ -163,7 +163,7 @@ Produces:
 | NLI (Contradiction) | microsoft/deberta-v3-large | HuggingFace |
 | Claim Extraction | microsoft/deberta-v3-base | HuggingFace |
 | Embeddings | sentence-transformers/all-MiniLM-L6-v2 | Sentence Transformers |
-| Generation | claude-3.5-sonnet | OpenRouter |
+| Generation | claude-sonnet-4 | OpenRouter |
 
 ## Key Configuration Parameters
 

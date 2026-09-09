@@ -11,7 +11,7 @@ class AnnotationManager:
         self.init_db()
 
     def init_db(self):
-        self.conn = sqlite3.connect(self.db_path)
+        self.conn = sqlite3.connect(self.db_path, check_same_thread=False)
         cursor = self.conn.cursor()
 
         cursor.execute('''

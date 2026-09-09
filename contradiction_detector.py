@@ -24,11 +24,20 @@ class ContradictionDetector:
             logits = outputs.logits
             probs = torch.softmax(logits, dim=-1)[0]
 
-        scores = {
-            "contradiction": float(probs[0]),
-            "neutral": float(probs[1]),
-            "entailment": float(probs[2])
-        }
+        num_classes = logits.shape[-1]
+
+        if num_classes == 2:
+            scores = {
+                "contradiction": float(probs[0]),
+                "neutral": 0.0,
+                "entailment": float(probs[1])
+            }
+        else:
+            scores = {
+                "contradiction": float(probs[0]),
+                "neutral": float(probs[1]),
+                "entailment": float(probs[2])
+            }
 
         return scores
 

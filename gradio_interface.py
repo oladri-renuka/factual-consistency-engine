@@ -47,7 +47,7 @@ class EarningsReportInterface:
     def _highlight_contradictions(self, text: str, contradictions: list) -> str:
         html_output = "<div style='font-family: Arial; line-height: 1.6;'>"
         html_output += "<h3>Baseline Report (with contradictions highlighted)</h3>"
-        html_output += "<p style='background-color: #fff3cd; padding: 10px; margin-bottom: 20px;'>"
+        html_output += "<p style='background-color: #fff3cd; padding: 10px; margin-bottom: 20px; color: black;'>"
         html_output += "⚠️ Red highlights indicate detected contradictions that need resolution."
         html_output += "</p>"
 
@@ -104,14 +104,16 @@ class EarningsReportInterface:
             gr.Markdown("## Report Comparison")
 
             with gr.Row():
-                with gr.Column(label="Generated Report"):
+                with gr.Column():
+                    gr.Markdown("### Clean Report")
                     generated_output = gr.Textbox(
-                        label="Clean Report (Contradictions Fixed)",
+                        label="Generated Report (Contradictions Fixed)",
                         lines=15,
                         interactive=False
                     )
 
-                with gr.Column(label="Baseline Comparison"):
+                with gr.Column():
+                    gr.Markdown("### Baseline with Highlights")
                     baseline_output = gr.HTML(
                         label="Baseline Report (Contradictions Highlighted)"
                     )
