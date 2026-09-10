@@ -1,0 +1,272 @@
+[
+  {
+    "id": "test_report_001",
+    "document_id": "acf9ee93-998f-480f-a953-d23e585de94b",
+    "company": "TechCorp Inc.",
+    "content": "\n# TechCorp Inc. - Earnings Report (Test Data with Contradictions)\n\n## Executive Summary\nTechCorp Inc. reported strong financial performance. Revenue increased from $900,000 to $1,000,000, representing impressive growth. However, revenue declined 5% compared to previous year due to market challenges.\n\n## Financial Performance\nOperating margin improved to 15%, reflecting disciplined cost management. Profitability decreased due to rising operational costs, impacting overall margins.\n\n## Workforce\nWe maintain strong momentum with 500 employees across all regions. Headcount reduction of 20% resulted in operational efficiency improvements.\n\n## Forward Guidance\nLooking ahead, we expect continued growth in core markets while managing cost pressures.\n",
+    "contradictions_detected": 3,
+    "contradictions": [
+      {
+        "claim_1": "Revenue increased from $900,000 to $1,000,000",
+        "claim_2": "Revenue declined 5% compared to previous year",
+        "paragraph": 0,
+        "score": 0.92
+      },
+      {
+        "claim_1": "Operating margin improved to 15%",
+        "claim_2": "Profitability decreased due to rising operational costs",
+        "paragraph": 1,
+        "score": 0.88
+      },
+      {
+        "claim_1": "We maintain strong momentum with 500 employees",
+        "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+        "paragraph": 2,
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "id": "test_report_002",
+    "document_id": "6b523a65-ed87-4166-9ecc-f73474868eca",
+    "company": "DataFlow Systems",
+    "content": "\n# DataFlow Systems - Earnings Report (Test Data with Contradictions)\n\n## Executive Summary\nDataFlow Systems reported strong financial performance. Revenue increased from $1,350,000 to $1,500,000, representing impressive growth. However, revenue declined 5% compared to previous year due to market challenges.\n\n## Financial Performance\nOperating margin improved to 15%, reflecting disciplined cost management. Profitability decreased due to rising operational costs, impacting overall margins.\n\n## Workforce\nWe maintain strong momentum with 500 employees across all regions. Headcount reduction of 20% resulted in operational efficiency improvements.\n\n## Forward Guidance\nLooking ahead, we expect continued growth in core markets while managing cost pressures.\n",
+    "contradictions_detected": 3,
+    "contradictions": [
+      {
+        "claim_1": "Revenue increased from $1,350,000 to $1,500,000",
+        "claim_2": "Revenue declined 5% compared to previous year",
+        "paragraph": 0,
+        "score": 0.92
+      },
+      {
+        "claim_1": "Operating margin improved to 15%",
+        "claim_2": "Profitability decreased due to rising operational costs",
+        "paragraph": 1,
+        "score": 0.88
+      },
+      {
+        "claim_1": "We maintain strong momentum with 500 employees",
+        "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+        "paragraph": 2,
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "id": "test_report_003",
+    "document_id": "4ba15705-bf5c-4454-a92d-a1b516fe0c0e",
+    "company": "CloudNine Solutions",
+    "content": "\n# CloudNine Solutions - Earnings Report (Test Data with Contradictions)\n\n## Executive Summary\nCloudNine Solutions reported strong financial performance. Revenue increased from $1,800,000 to $2,000,000, representing impressive growth. However, revenue declined 5% compared to previous year due to market challenges.\n\n## Financial Performance\nOperating margin improved to 15%, reflecting disciplined cost management. Profitability decreased due to rising operational costs, impacting overall margins.\n\n## Workforce\nWe maintain strong momentum with 500 employees across all regions. Headcount reduction of 20% resulted in operational efficiency improvements.\n\n## Forward Guidance\nLooking ahead, we expect continued growth in core markets while managing cost pressures.\n",
+    "contradictions_detected": 3,
+    "contradictions": [
+      {
+        "claim_1": "Revenue increased from $1,800,000 to $2,000,000",
+        "claim_2": "Revenue declined 5% compared to previous year",
+        "paragraph": 0,
+        "score": 0.92
+      },
+      {
+        "claim_1": "Operating margin improved to 15%",
+        "claim_2": "Profitability decreased due to rising operational costs",
+        "paragraph": 1,
+        "score": 0.88
+      },
+      {
+        "claim_1": "We maintain strong momentum with 500 employees",
+        "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+        "paragraph": 2,
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "id": "test_report_004",
+    "document_id": "48ad2855-281c-4439-adef-050921d2fd97",
+    "company": "NeuralNetworks Ltd.",
+    "content": "\n# NeuralNetworks Ltd. - Earnings Report (Test Data with Contradictions)\n\n## Executive Summary\nNeuralNetworks Ltd. reported strong financial performance. Revenue increased from $2,250,000 to $2,500,000, representing impressive growth. However, revenue declined 5% compared to previous year due to market challenges.\n\n## Financial Performance\nOperating margin improved to 15%, reflecting disciplined cost management. Profitability decreased due to rising operational costs, impacting overall margins.\n\n## Workforce\nWe maintain strong momentum with 500 employees across all regions. Headcount reduction of 20% resulted in operational efficiency improvements.\n\n## Forward Guidance\nLooking ahead, we expect continued growth in core markets while managing cost pressures.\n",
+    "contradictions_detected": 3,
+    "contradictions": [
+      {
+        "claim_1": "Revenue increased from $2,250,000 to $2,500,000",
+        "claim_2": "Revenue declined 5% compared to previous year",
+        "paragraph": 0,
+        "score": 0.92
+      },
+      {
+        "claim_1": "Operating margin improved to 15%",
+        "claim_2": "Profitability decreased due to rising operational costs",
+        "paragraph": 1,
+        "score": 0.88
+      },
+      {
+        "claim_1": "We maintain strong momentum with 500 employees",
+        "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+        "paragraph": 2,
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "id": "test_report_005",
+    "document_id": "9cc93d98-c7e2-47a0-9176-7d68a7985f39",
+    "company": "QuantumLeap Technologies",
+    "content": "\n# QuantumLeap Technologies - Earnings Report (Test Data with Contradictions)\n\n## Executive Summary\nQuantumLeap Technologies reported strong financial performance. Revenue increased from $2,700,000 to $3,000,000, representing impressive growth. However, revenue declined 5% compared to previous year due to market challenges.\n\n## Financial Performance\nOperating margin improved to 15%, reflecting disciplined cost management. Profitability decreased due to rising operational costs, impacting overall margins.\n\n## Workforce\nWe maintain strong momentum with 500 employees across all regions. Headcount reduction of 20% resulted in operational efficiency improvements.\n\n## Forward Guidance\nLooking ahead, we expect continued growth in core markets while managing cost pressures.\n",
+    "contradictions_detected": 3,
+    "contradictions": [
+      {
+        "claim_1": "Revenue increased from $2,700,000 to $3,000,000",
+        "claim_2": "Revenue declined 5% compared to previous year",
+        "paragraph": 0,
+        "score": 0.92
+      },
+      {
+        "claim_1": "Operating margin improved to 15%",
+        "claim_2": "Profitability decreased due to rising operational costs",
+        "paragraph": 1,
+        "score": 0.88
+      },
+      {
+        "claim_1": "We maintain strong momentum with 500 employees",
+        "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+        "paragraph": 2,
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "id": "test_report_006",
+    "document_id": "8a849b2a-8339-4c90-83e7-f7de4dd01f1f",
+    "company": "SoftwareFirst Corp",
+    "content": "\n# SoftwareFirst Corp - Earnings Report (Test Data with Contradictions)\n\n## Executive Summary\nSoftwareFirst Corp reported strong financial performance. Revenue increased from $3,150,000 to $3,500,000, representing impressive growth. However, revenue declined 5% compared to previous year due to market challenges.\n\n## Financial Performance\nOperating margin improved to 15%, reflecting disciplined cost management. Profitability decreased due to rising operational costs, impacting overall margins.\n\n## Workforce\nWe maintain strong momentum with 500 employees across all regions. Headcount reduction of 20% resulted in operational efficiency improvements.\n\n## Forward Guidance\nLooking ahead, we expect continued growth in core markets while managing cost pressures.\n",
+    "contradictions_detected": 3,
+    "contradictions": [
+      {
+        "claim_1": "Revenue increased from $3,150,000 to $3,500,000",
+        "claim_2": "Revenue declined 5% compared to previous year",
+        "paragraph": 0,
+        "score": 0.92
+      },
+      {
+        "claim_1": "Operating margin improved to 15%",
+        "claim_2": "Profitability decreased due to rising operational costs",
+        "paragraph": 1,
+        "score": 0.88
+      },
+      {
+        "claim_1": "We maintain strong momentum with 500 employees",
+        "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+        "paragraph": 2,
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "id": "test_report_007",
+    "document_id": "6ff99541-610b-4a19-afbd-781058e32f3c",
+    "company": "InfoSecurity Global",
+    "content": "\n# InfoSecurity Global - Earnings Report (Test Data with Contradictions)\n\n## Executive Summary\nInfoSecurity Global reported strong financial performance. Revenue increased from $3,600,000 to $4,000,000, representing impressive growth. However, revenue declined 5% compared to previous year due to market challenges.\n\n## Financial Performance\nOperating margin improved to 15%, reflecting disciplined cost management. Profitability decreased due to rising operational costs, impacting overall margins.\n\n## Workforce\nWe maintain strong momentum with 500 employees across all regions. Headcount reduction of 20% resulted in operational efficiency improvements.\n\n## Forward Guidance\nLooking ahead, we expect continued growth in core markets while managing cost pressures.\n",
+    "contradictions_detected": 3,
+    "contradictions": [
+      {
+        "claim_1": "Revenue increased from $3,600,000 to $4,000,000",
+        "claim_2": "Revenue declined 5% compared to previous year",
+        "paragraph": 0,
+        "score": 0.92
+      },
+      {
+        "claim_1": "Operating margin improved to 15%",
+        "claim_2": "Profitability decreased due to rising operational costs",
+        "paragraph": 1,
+        "score": 0.88
+      },
+      {
+        "claim_1": "We maintain strong momentum with 500 employees",
+        "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+        "paragraph": 2,
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "id": "test_report_008",
+    "document_id": "9f6208f6-f18b-4f42-bb71-303bc927c204",
+    "company": "CloudCompute Inc.",
+    "content": "\n# CloudCompute Inc. - Earnings Report (Test Data with Contradictions)\n\n## Executive Summary\nCloudCompute Inc. reported strong financial performance. Revenue increased from $4,050,000 to $4,500,000, representing impressive growth. However, revenue declined 5% compared to previous year due to market challenges.\n\n## Financial Performance\nOperating margin improved to 15%, reflecting disciplined cost management. Profitability decreased due to rising operational costs, impacting overall margins.\n\n## Workforce\nWe maintain strong momentum with 500 employees across all regions. Headcount reduction of 20% resulted in operational efficiency improvements.\n\n## Forward Guidance\nLooking ahead, we expect continued growth in core markets while managing cost pressures.\n",
+    "contradictions_detected": 3,
+    "contradictions": [
+      {
+        "claim_1": "Revenue increased from $4,050,000 to $4,500,000",
+        "claim_2": "Revenue declined 5% compared to previous year",
+        "paragraph": 0,
+        "score": 0.92
+      },
+      {
+        "claim_1": "Operating margin improved to 15%",
+        "claim_2": "Profitability decreased due to rising operational costs",
+        "paragraph": 1,
+        "score": 0.88
+      },
+      {
+        "claim_1": "We maintain strong momentum with 500 employees",
+        "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+        "paragraph": 2,
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "id": "test_report_009",
+    "document_id": "612a81fa-1351-496c-8f9a-87427a9b4897",
+    "company": "AIInnovations Ltd.",
+    "content": "\n# AIInnovations Ltd. - Earnings Report (Test Data with Contradictions)\n\n## Executive Summary\nAIInnovations Ltd. reported strong financial performance. Revenue increased from $4,500,000 to $5,000,000, representing impressive growth. However, revenue declined 5% compared to previous year due to market challenges.\n\n## Financial Performance\nOperating margin improved to 15%, reflecting disciplined cost management. Profitability decreased due to rising operational costs, impacting overall margins.\n\n## Workforce\nWe maintain strong momentum with 500 employees across all regions. Headcount reduction of 20% resulted in operational efficiency improvements.\n\n## Forward Guidance\nLooking ahead, we expect continued growth in core markets while managing cost pressures.\n",
+    "contradictions_detected": 3,
+    "contradictions": [
+      {
+        "claim_1": "Revenue increased from $4,500,000 to $5,000,000",
+        "claim_2": "Revenue declined 5% compared to previous year",
+        "paragraph": 0,
+        "score": 0.92
+      },
+      {
+        "claim_1": "Operating margin improved to 15%",
+        "claim_2": "Profitability decreased due to rising operational costs",
+        "paragraph": 1,
+        "score": 0.88
+      },
+      {
+        "claim_1": "We maintain strong momentum with 500 employees",
+        "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+        "paragraph": 2,
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "id": "test_report_010",
+    "document_id": "9023081f-f504-4523-8000-38cc46a6f523",
+    "company": "DataVault Systems",
+    "content": "\n# DataVault Systems - Earnings Report (Test Data with Contradictions)\n\n## Executive Summary\nDataVault Systems reported strong financial performance. Revenue increased from $4,950,000 to $5,500,000, representing impressive growth. However, revenue declined 5% compared to previous year due to market challenges.\n\n## Financial Performance\nOperating margin improved to 15%, reflecting disciplined cost management. Profitability decreased due to rising operational costs, impacting overall margins.\n\n## Workforce\nWe maintain strong momentum with 500 employees across all regions. Headcount reduction of 20% resulted in operational efficiency improvements.\n\n## Forward Guidance\nLooking ahead, we expect continued growth in core markets while managing cost pressures.\n",
+    "contradictions_detected": 3,
+    "contradictions": [
+      {
+        "claim_1": "Revenue increased from $4,950,000 to $5,500,000",
+        "claim_2": "Revenue declined 5% compared to previous year",
+        "paragraph": 0,
+        "score": 0.92
+      },
+      {
+        "claim_1": "Operating margin improved to 15%",
+        "claim_2": "Profitability decreased due to rising operational costs",
+        "paragraph": 1,
+        "score": 0.88
+      },
+      {
+        "claim_1": "We maintain strong momentum with 500 employees",
+        "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+        "paragraph": 2,
+        "score": 0.85
+      }
+    ]
+  }
+]

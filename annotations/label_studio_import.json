@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "data": {
+      "content": "Claim 1: Revenue increased from $900,000 to $1,000,000\n\nClaim 2: Revenue declined 5% compared to previous year",
+      "report_id": "test_report_001",
+      "company": "TechCorp Inc.",
+      "claim_1": "Revenue increased from $900,000 to $1,000,000",
+      "claim_2": "Revenue declined 5% compared to previous year",
+      "paragraph": 0,
+      "system_contradiction_score": 0.92
+    }
+  },
+  {
+    "id": 2,
+    "data": {
+      "content": "Claim 1: Operating margin improved to 15%\n\nClaim 2: Profitability decreased due to rising operational costs",
+      "report_id": "test_report_001",
+      "company": "TechCorp Inc.",
+      "claim_1": "Operating margin improved to 15%",
+      "claim_2": "Profitability decreased due to rising operational costs",
+      "paragraph": 1,
+      "system_contradiction_score": 0.88
+    }
+  },
+  {
+    "id": 3,
+    "data": {
+      "content": "Claim 1: We maintain strong momentum with 500 employees\n\nClaim 2: Headcount reduction of 20% resulted in operational efficiency",
+      "report_id": "test_report_001",
+      "company": "TechCorp Inc.",
+      "claim_1": "We maintain strong momentum with 500 employees",
+      "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+      "paragraph": 2,
+      "system_contradiction_score": 0.85
+    }
+  },
+  {
+    "id": 4,
+    "data": {
+      "content": "Claim 1: Revenue increased from $1,350,000 to $1,500,000\n\nClaim 2: Revenue declined 5% compared to previous year",
+      "report_id": "test_report_002",
+      "company": "DataFlow Systems",
+      "claim_1": "Revenue increased from $1,350,000 to $1,500,000",
+      "claim_2": "Revenue declined 5% compared to previous year",
+      "paragraph": 0,
+      "system_contradiction_score": 0.92
+    }
+  },
+  {
+    "id": 5,
+    "data": {
+      "content": "Claim 1: Operating margin improved to 15%\n\nClaim 2: Profitability decreased due to rising operational costs",
+      "report_id": "test_report_002",
+      "company": "DataFlow Systems",
+      "claim_1": "Operating margin improved to 15%",
+      "claim_2": "Profitability decreased due to rising operational costs",
+      "paragraph": 1,
+      "system_contradiction_score": 0.88
+    }
+  },
+  {
+    "id": 6,
+    "data": {
+      "content": "Claim 1: We maintain strong momentum with 500 employees\n\nClaim 2: Headcount reduction of 20% resulted in operational efficiency",
+      "report_id": "test_report_002",
+      "company": "DataFlow Systems",
+      "claim_1": "We maintain strong momentum with 500 employees",
+      "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+      "paragraph": 2,
+      "system_contradiction_score": 0.85
+    }
+  },
+  {
+    "id": 7,
+    "data": {
+      "content": "Claim 1: Revenue increased from $1,800,000 to $2,000,000\n\nClaim 2: Revenue declined 5% compared to previous year",
+      "report_id": "test_report_003",
+      "company": "CloudNine Solutions",
+      "claim_1": "Revenue increased from $1,800,000 to $2,000,000",
+      "claim_2": "Revenue declined 5% compared to previous year",
+      "paragraph": 0,
+      "system_contradiction_score": 0.92
+    }
+  },
+  {
+    "id": 8,
+    "data": {
+      "content": "Claim 1: Operating margin improved to 15%\n\nClaim 2: Profitability decreased due to rising operational costs",
+      "report_id": "test_report_003",
+      "company": "CloudNine Solutions",
+      "claim_1": "Operating margin improved to 15%",
+      "claim_2": "Profitability decreased due to rising operational costs",
+      "paragraph": 1,
+      "system_contradiction_score": 0.88
+    }
+  },
+  {
+    "id": 9,
+    "data": {
+      "content": "Claim 1: We maintain strong momentum with 500 employees\n\nClaim 2: Headcount reduction of 20% resulted in operational efficiency",
+      "report_id": "test_report_003",
+      "company": "CloudNine Solutions",
+      "claim_1": "We maintain strong momentum with 500 employees",
+      "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+      "paragraph": 2,
+      "system_contradiction_score": 0.85
+    }
+  },
+  {
+    "id": 10,
+    "data": {
+      "content": "Claim 1: Revenue increased from $2,250,000 to $2,500,000\n\nClaim 2: Revenue declined 5% compared to previous year",
+      "report_id": "test_report_004",
+      "company": "NeuralNetworks Ltd.",
+      "claim_1": "Revenue increased from $2,250,000 to $2,500,000",
+      "claim_2": "Revenue declined 5% compared to previous year",
+      "paragraph": 0,
+      "system_contradiction_score": 0.92
+    }
+  },
+  {
+    "id": 11,
+    "data": {
+      "content": "Claim 1: Operating margin improved to 15%\n\nClaim 2: Profitability decreased due to rising operational costs",
+      "report_id": "test_report_004",
+      "company": "NeuralNetworks Ltd.",
+      "claim_1": "Operating margin improved to 15%",
+      "claim_2": "Profitability decreased due to rising operational costs",
+      "paragraph": 1,
+      "system_contradiction_score": 0.88
+    }
+  },
+  {
+    "id": 12,
+    "data": {
+      "content": "Claim 1: We maintain strong momentum with 500 employees\n\nClaim 2: Headcount reduction of 20% resulted in operational efficiency",
+      "report_id": "test_report_004",
+      "company": "NeuralNetworks Ltd.",
+      "claim_1": "We maintain strong momentum with 500 employees",
+      "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+      "paragraph": 2,
+      "system_contradiction_score": 0.85
+    }
+  },
+  {
+    "id": 13,
+    "data": {
+      "content": "Claim 1: Revenue increased from $2,700,000 to $3,000,000\n\nClaim 2: Revenue declined 5% compared to previous year",
+      "report_id": "test_report_005",
+      "company": "QuantumLeap Technologies",
+      "claim_1": "Revenue increased from $2,700,000 to $3,000,000",
+      "claim_2": "Revenue declined 5% compared to previous year",
+      "paragraph": 0,
+      "system_contradiction_score": 0.92
+    }
+  },
+  {
+    "id": 14,
+    "data": {
+      "content": "Claim 1: Operating margin improved to 15%\n\nClaim 2: Profitability decreased due to rising operational costs",
+      "report_id": "test_report_005",
+      "company": "QuantumLeap Technologies",
+      "claim_1": "Operating margin improved to 15%",
+      "claim_2": "Profitability decreased due to rising operational costs",
+      "paragraph": 1,
+      "system_contradiction_score": 0.88
+    }
+  },
+  {
+    "id": 15,
+    "data": {
+      "content": "Claim 1: We maintain strong momentum with 500 employees\n\nClaim 2: Headcount reduction of 20% resulted in operational efficiency",
+      "report_id": "test_report_005",
+      "company": "QuantumLeap Technologies",
+      "claim_1": "We maintain strong momentum with 500 employees",
+      "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+      "paragraph": 2,
+      "system_contradiction_score": 0.85
+    }
+  },
+  {
+    "id": 16,
+    "data": {
+      "content": "Claim 1: Revenue increased from $3,150,000 to $3,500,000\n\nClaim 2: Revenue declined 5% compared to previous year",
+      "report_id": "test_report_006",
+      "company": "SoftwareFirst Corp",
+      "claim_1": "Revenue increased from $3,150,000 to $3,500,000",
+      "claim_2": "Revenue declined 5% compared to previous year",
+      "paragraph": 0,
+      "system_contradiction_score": 0.92
+    }
+  },
+  {
+    "id": 17,
+    "data": {
+      "content": "Claim 1: Operating margin improved to 15%\n\nClaim 2: Profitability decreased due to rising operational costs",
+      "report_id": "test_report_006",
+      "company": "SoftwareFirst Corp",
+      "claim_1": "Operating margin improved to 15%",
+      "claim_2": "Profitability decreased due to rising operational costs",
+      "paragraph": 1,
+      "system_contradiction_score": 0.88
+    }
+  },
+  {
+    "id": 18,
+    "data": {
+      "content": "Claim 1: We maintain strong momentum with 500 employees\n\nClaim 2: Headcount reduction of 20% resulted in operational efficiency",
+      "report_id": "test_report_006",
+      "company": "SoftwareFirst Corp",
+      "claim_1": "We maintain strong momentum with 500 employees",
+      "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+      "paragraph": 2,
+      "system_contradiction_score": 0.85
+    }
+  },
+  {
+    "id": 19,
+    "data": {
+      "content": "Claim 1: Revenue increased from $3,600,000 to $4,000,000\n\nClaim 2: Revenue declined 5% compared to previous year",
+      "report_id": "test_report_007",
+      "company": "InfoSecurity Global",
+      "claim_1": "Revenue increased from $3,600,000 to $4,000,000",
+      "claim_2": "Revenue declined 5% compared to previous year",
+      "paragraph": 0,
+      "system_contradiction_score": 0.92
+    }
+  },
+  {
+    "id": 20,
+    "data": {
+      "content": "Claim 1: Operating margin improved to 15%\n\nClaim 2: Profitability decreased due to rising operational costs",
+      "report_id": "test_report_007",
+      "company": "InfoSecurity Global",
+      "claim_1": "Operating margin improved to 15%",
+      "claim_2": "Profitability decreased due to rising operational costs",
+      "paragraph": 1,
+      "system_contradiction_score": 0.88
+    }
+  },
+  {
+    "id": 21,
+    "data": {
+      "content": "Claim 1: We maintain strong momentum with 500 employees\n\nClaim 2: Headcount reduction of 20% resulted in operational efficiency",
+      "report_id": "test_report_007",
+      "company": "InfoSecurity Global",
+      "claim_1": "We maintain strong momentum with 500 employees",
+      "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+      "paragraph": 2,
+      "system_contradiction_score": 0.85
+    }
+  },
+  {
+    "id": 22,
+    "data": {
+      "content": "Claim 1: Revenue increased from $4,050,000 to $4,500,000\n\nClaim 2: Revenue declined 5% compared to previous year",
+      "report_id": "test_report_008",
+      "company": "CloudCompute Inc.",
+      "claim_1": "Revenue increased from $4,050,000 to $4,500,000",
+      "claim_2": "Revenue declined 5% compared to previous year",
+      "paragraph": 0,
+      "system_contradiction_score": 0.92
+    }
+  },
+  {
+    "id": 23,
+    "data": {
+      "content": "Claim 1: Operating margin improved to 15%\n\nClaim 2: Profitability decreased due to rising operational costs",
+      "report_id": "test_report_008",
+      "company": "CloudCompute Inc.",
+      "claim_1": "Operating margin improved to 15%",
+      "claim_2": "Profitability decreased due to rising operational costs",
+      "paragraph": 1,
+      "system_contradiction_score": 0.88
+    }
+  },
+  {
+    "id": 24,
+    "data": {
+      "content": "Claim 1: We maintain strong momentum with 500 employees\n\nClaim 2: Headcount reduction of 20% resulted in operational efficiency",
+      "report_id": "test_report_008",
+      "company": "CloudCompute Inc.",
+      "claim_1": "We maintain strong momentum with 500 employees",
+      "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+      "paragraph": 2,
+      "system_contradiction_score": 0.85
+    }
+  },
+  {
+    "id": 25,
+    "data": {
+      "content": "Claim 1: Revenue increased from $4,500,000 to $5,000,000\n\nClaim 2: Revenue declined 5% compared to previous year",
+      "report_id": "test_report_009",
+      "company": "AIInnovations Ltd.",
+      "claim_1": "Revenue increased from $4,500,000 to $5,000,000",
+      "claim_2": "Revenue declined 5% compared to previous year",
+      "paragraph": 0,
+      "system_contradiction_score": 0.92
+    }
+  },
+  {
+    "id": 26,
+    "data": {
+      "content": "Claim 1: Operating margin improved to 15%\n\nClaim 2: Profitability decreased due to rising operational costs",
+      "report_id": "test_report_009",
+      "company": "AIInnovations Ltd.",
+      "claim_1": "Operating margin improved to 15%",
+      "claim_2": "Profitability decreased due to rising operational costs",
+      "paragraph": 1,
+      "system_contradiction_score": 0.88
+    }
+  },
+  {
+    "id": 27,
+    "data": {
+      "content": "Claim 1: We maintain strong momentum with 500 employees\n\nClaim 2: Headcount reduction of 20% resulted in operational efficiency",
+      "report_id": "test_report_009",
+      "company": "AIInnovations Ltd.",
+      "claim_1": "We maintain strong momentum with 500 employees",
+      "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+      "paragraph": 2,
+      "system_contradiction_score": 0.85
+    }
+  },
+  {
+    "id": 28,
+    "data": {
+      "content": "Claim 1: Revenue increased from $4,950,000 to $5,500,000\n\nClaim 2: Revenue declined 5% compared to previous year",
+      "report_id": "test_report_010",
+      "company": "DataVault Systems",
+      "claim_1": "Revenue increased from $4,950,000 to $5,500,000",
+      "claim_2": "Revenue declined 5% compared to previous year",
+      "paragraph": 0,
+      "system_contradiction_score": 0.92
+    }
+  },
+  {
+    "id": 29,
+    "data": {
+      "content": "Claim 1: Operating margin improved to 15%\n\nClaim 2: Profitability decreased due to rising operational costs",
+      "report_id": "test_report_010",
+      "company": "DataVault Systems",
+      "claim_1": "Operating margin improved to 15%",
+      "claim_2": "Profitability decreased due to rising operational costs",
+      "paragraph": 1,
+      "system_contradiction_score": 0.88
+    }
+  },
+  {
+    "id": 30,
+    "data": {
+      "content": "Claim 1: We maintain strong momentum with 500 employees\n\nClaim 2: Headcount reduction of 20% resulted in operational efficiency",
+      "report_id": "test_report_010",
+      "company": "DataVault Systems",
+      "claim_1": "We maintain strong momentum with 500 employees",
+      "claim_2": "Headcount reduction of 20% resulted in operational efficiency",
+      "paragraph": 2,
+      "system_contradiction_score": 0.85
+    }
+  }
+]
