@@ -18,7 +18,7 @@ OPENROUTER_MODEL = "anthropic/claude-sonnet-4"
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # Contradiction thresholds
-CONTRADICTION_THRESHOLD = 0.7
+CONTRADICTION_THRESHOLD = 0.50
 SIMILARITY_THRESHOLD = 0.75
 
 # Generation parameters

@@ -3,7 +3,7 @@ import csv
 from pathlib import Path
 from typing import List, Dict
 from config import RESULTS_DIR, ANNOTATIONS_DIR
-from annotation_manager import AnnotationManager
+from .annotation_manager import AnnotationManager
 
 class LabelStudioExporter:
     def __init__(self):

@@ -1,9 +1,9 @@
 import json
 import argparse
 from pathlib import Path
-from evaluation_dataset import EvaluationDatasetGenerator
-from evaluation_metrics import EvaluationMetrics
-from annotation_manager import AnnotationManager
+from .evaluation_dataset import EvaluationDatasetGenerator
+from .evaluation_metrics import EvaluationMetrics
+from .annotation_manager import AnnotationManager
 from config import RESULTS_DIR
 from tqdm import tqdm
 

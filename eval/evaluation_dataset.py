@@ -3,7 +3,7 @@ import random
 from pathlib import Path
 from typing import Dict, List
 from config import NUM_EVALUATION_REPORTS, RESULTS_DIR
-from report_generator import ReportGenerator
+from src.report_generator import ReportGenerator
 
 class EvaluationDatasetGenerator:
     def __init__(self):

@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Dict, List, Optional
-from report_generator import ReportGenerator
-from fact_ledger import FactLedger
+from src.report_generator import ReportGenerator
+from src.fact_ledger import FactLedger
 import uvicorn
 
 app = FastAPI(title="Factual Consistency Engine API")

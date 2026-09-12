@@ -1,5 +1,5 @@
 import gradio as gr
-from report_generator import ReportGenerator
+from src.report_generator import ReportGenerator
 from typing import Dict, Tuple
 import json
 

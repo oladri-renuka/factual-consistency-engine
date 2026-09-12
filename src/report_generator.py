@@ -7,10 +7,10 @@ from config import (
     OPENROUTER_API_KEY, OPENROUTER_BASE_URL, OPENROUTER_MODEL,
     MAX_TOKENS, TEMPERATURE, CONTRADICTION_THRESHOLD
 )
-from fact_ledger import FactLedger
-from claim_extractor import ClaimExtractor
-from embeddings import EmbeddingService
-from contradiction_detector import ContradictionDetector
+from .fact_ledger import FactLedger
+from .claim_extractor import ClaimExtractor
+from .embeddings import EmbeddingService
+from .contradiction_detector import ContradictionDetector
 import numpy as np
 
 class ReportGenerator:

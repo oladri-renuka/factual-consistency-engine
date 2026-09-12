@@ -5,7 +5,7 @@ from sklearn.metrics import cohen_kappa_score, precision_score, recall_score, f1
 from pathlib import Path
 import json
 from config import RESULTS_DIR
-from annotation_manager import AnnotationManager
+from .annotation_manager import AnnotationManager
 
 class EvaluationMetrics:
     def __init__(self):

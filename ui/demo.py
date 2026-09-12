@@ -5,11 +5,11 @@ Demo script showing the complete factual consistency engine workflow
 
 import json
 from pathlib import Path
-from report_generator import ReportGenerator
-from fact_ledger import FactLedger
-from embeddings import EmbeddingService
-from contradiction_detector import ContradictionDetector
-from claim_extractor import ClaimExtractor
+from src.report_generator import ReportGenerator
+from src.fact_ledger import FactLedger
+from src.embeddings import EmbeddingService
+from src.contradiction_detector import ContradictionDetector
+from src.claim_extractor import ClaimExtractor
 
 def demo_single_report():
     print("\n" + "="*70)
