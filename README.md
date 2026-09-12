@@ -222,9 +222,3 @@ curl http://localhost:8000/document/{document_id}
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
