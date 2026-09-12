@@ -225,6 +225,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-**Status:** ✅ Production Ready  
-**Last Updated:** 2026-09-12  
-**Benchmark Results:** PR-AUC 0.884 | ROC-AUC 0.942 | FPR 3.3%
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
